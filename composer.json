@@ -1,0 +1,34 @@
+{
+    "name": "monii/nimble-symfony-console",
+    "description": "Nimble Symfony Console",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beau Simensen",
+            "email": "beau@dflydev.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.0@dev",
+        "illuminate/contracts": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monii\\Nimble\\Symfony\\Console\\": "src"
+        },
+        "files": ["src/functions.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Monii\\Nimble\\Symfony\\Console\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "illuminate/container": "^5.1"
+    }
+}
