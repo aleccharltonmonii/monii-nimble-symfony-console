@@ -6,6 +6,14 @@
         {
             "name": "Beau Simensen",
             "email": "beau@dflydev.com"
+        },
+        {
+            "name": "Steve Marks",
+            "email": "steve.marks@monii.com"
+        },
+        {
+            "name": "Alec Charlton",
+            "email": "alec.charlton@monii.com"
         }
     ],
     "require": {
