@@ -1,6 +1,6 @@
 #!/usr/bin/env /bin/sh
 
-cd tests;
+cd $(dirname $0);
 
 ACTUAL=$(php console.php signature-configured:optional-array-argument-command foo bar)
 
